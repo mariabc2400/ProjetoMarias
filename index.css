@@ -15,6 +15,7 @@ header {
 
 }
 
+
 p {
     display: flex;
     flex-direction: row;
@@ -43,8 +44,20 @@ h2 {
 }
 
 h3 {
-    display: flex;
-    justify-content: center;
+    
     color:beige;
 }
 
+#myportfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfol { 
+    width: 45%;
+      margin-left: 0;
+    margin-right: 0;
+}
+
+.portfol img { max-width: 100%;}
