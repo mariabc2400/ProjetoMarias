@@ -2,6 +2,7 @@
 
 body { 
     background-color: #b2bda0;
+    
 }
 
 header {
@@ -11,44 +12,76 @@ header {
 
     display: flex;
     justify-content: space-around;
+    
 
 
 }
 
 
 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #ebefe3;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
 }
 
 figure {
     margin-left: 400px;
-    margin-right: 400px
-    
+    margin-right: 400px;
+   
+}
+
+ul {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:15px;
+    font-weight: bold;
+
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+
     display: flex;
     justify-content: center;
     color: #526434;
 }
 
 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bold;
+
     display: flex;
     justify-content: center;
     color: #526434;
 }
 
 h3 {
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center; 
     color:beige;
 }
 
 #myportfolio {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -61,3 +94,21 @@ h3 {
 }
 
 .portfol img { max-width: 100%;}
+
+footer {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:lighter;
+
+    background-color: #526434;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
